@@ -1,0 +1,162 @@
+body {
+    font-family: Montserrat-robot;
+    font-weight: 500;
+    background: #fff;
+  }
+  .cont {
+    max-width: 1600px;
+    margin: auto;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+  }
+  
+  .close {
+    color: #aaa;
+    display: flex;
+    justify-content: end;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-content__input_1 {
+    margin-top: 10px;
+    border: 1px solid #E2E7EC;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+  
+  .modal-content__input_2 {
+    margin-top: 10px;
+    border: 1px solid #E2E7EC;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+  
+  #save {
+    background: #2196F3;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  #cancel {
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .root{
+    display: grid;
+    gap: 45px;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .div1 {
+    padding: 20px;
+    background-color: #FFF9DE;
+    width: 387px;
+    border-radius: 10px;
+  }
+  
+  .div2 {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .div3 {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .div4 {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .modal_edit {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal_edit_cont {
+    width: 20%;
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    border-radius: 4px;
+  }
+  
+  .modal_cont1 {
+    text-align: center;
+  }
+  
+  .modal_cont2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .inpEdit1 {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid #888;
+    border-radius: 3px;
+  }
+  
+  .inpEdit2 {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #888;
+    border-radius: 3px;
+  }
+  
+  .edit {
+    width: 100px;
+    height: 28px;
+    background: rgb(83, 83, 255);
+    border-radius: 5px;
+    color: #fefefe;
+  }
+  
+  .cancel {
+    width: 100px;
+    height: 28px;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: green;
+  }
